@@ -1,0 +1,44 @@
+.mainBlock {
+  a {
+    text-decoration: none;
+  }
+}
+
+.mainContainer {
+  grid-column: span 1;
+  background-color: #112131;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 20px;
+  height: 250px;
+
+  p {
+    color: #afc2d4;
+    font-size: 0.85rem;
+    line-height: 23px;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+}
+
+.mainTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  h4 {
+    width: 70%;
+    font-size: 1.1rem;
+    color: #e7edf4;
+    margin-bottom: 20px;
+  }
+
+  h6 {
+    color: #7b96b2;
+    font-size: 0.75rem;
+  }
+}

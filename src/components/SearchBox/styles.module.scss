@@ -1,0 +1,33 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin-top: 70px;
+}
+
+.publications {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  h3 {
+    color: #c4d4e3;
+  }
+
+  h6 {
+    color: #7b96b2;
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+}
+.searchInput {
+  width: 100%;
+  background-color: #040f1a;
+  border: 1px solid rgb(26, 31, 48);
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 11px;
+}
+.searchInput::placeholder {
+  color: rgb(94, 94, 117);
+}

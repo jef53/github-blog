@@ -1,0 +1,23 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  background-color: transparent;
+  margin-bottom: 100px;
+  img {
+    background-color: transparent;
+    z-index: 1;
+  }
+}
+
+.background {
+  position: relative;
+  width: 100vw;
+  height: 300px;
+}

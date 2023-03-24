@@ -1,0 +1,14 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.postsContainer {
+  margin: 60px 0;
+
+  display: grid;
+  grid-template-columns: 387px 387px;
+  gap: 25px;
+}
